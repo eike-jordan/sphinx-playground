@@ -17,9 +17,13 @@ $ git clone URL
 
 ### Initialise project
 
-```console
+``` console
 $ cd sphinx-playground
 $ uv sync
+
+### Create docs
+``` console
+$ cd docs
 $ uv run make html
 ```
 
