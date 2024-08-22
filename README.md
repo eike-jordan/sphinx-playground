@@ -21,10 +21,16 @@ $ git clone URL
 $ cd sphinx-playground
 $ uv sync
 
-### Create docs
+## Create docs
 ``` console
+$ uv sync --extra docs
 $ cd docs
 $ uv run make html
+```
+
+## Create dev environment
+``` console
+$ uv sync --extra dev
 ```
 
 ### Open web browser

@@ -12,6 +12,11 @@ docs = [
     "sphinx",
 ]
 
+dev = [
+    "sphinx-playground[docs]",
+    "pre-commit",
+]
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
